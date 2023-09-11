@@ -1,0 +1,112 @@
+.screenshot-container-landscape {
+    width: 1200px;
+    height: 800px;
+    overflow: hidden;
+    margin: 5rem;
+    /* border: solid 1px black; */
+}
+
+.grid-container {
+    transform: rotate(-45deg) translate(-35px, -396px);
+    width: 1709px;
+}
+
+.grid-wrapper {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.grid-wrapper-offset {
+    display: flex;
+    gap: 2rem;
+    transform: translate(250px, 0px);
+}
+
+.grid-image {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px -16px rgba(0,0,0,.2),0 1px 2px 0 rgba(0,0,0,.031);
+    border: solid 1px #eaeaea;
+}
+
+.trio-image {
+    object-fit: cover;
+    height: 550px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 14px 40px -7px rgb(88 81 81 / 13%);
+}
+
+.trio-image-main {
+    position: absolute;
+    border: solid 1px #eaeaea;
+    transform: translate(395px, 60px);
+    z-index: 10;
+}
+
+.trio-image-left {
+    position: absolute;
+    border: solid 1px #eaeaea;
+    transform: translate(95px, 143px) rotate(356deg);
+    z-index: 1;
+}
+
+.trio-image-right {
+    position: absolute;
+    border: solid 1px #eaeaea;
+    transform: translate(606px, 179px) rotate(4deg);
+    z-index: 5;
+}
+
+.screenshot-container-landscape-responsive {
+    width: 1165px;
+    height: 748px;
+    overflow: hidden;
+    margin: 5rem;
+    /* border: solid 1px black; */
+}
+
+.responsive-design-desktop {
+    transform: translate(209px, 36px);
+    position: absolute;
+    object-fit: cover;
+    width: 750px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 0 14px 40px -7px rgb(88 81 81 / 13%);
+    border: solid 1px #eaeaea;
+}
+
+.responsive-design-tablet {
+    transform: translate(584px, 238px);
+    position: absolute;
+    object-fit: cover;
+    width: 500px;
+    height: 380px;
+    border-radius: 15px;
+    box-shadow: 0 14px 40px -7px rgb(88 81 81 / 13%);
+    border: solid 1px #eaeaea;
+}
+
+.responsive-design-mobile {
+    position: absolute;
+    object-fit: cover;
+    width: 200px;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 0 14px 40px -7px rgb(88 81 81 / 13%);
+    border: solid 1px #eaeaea;
+}
+
+.responsive-design-mobile-one {
+    transform: translate(227px, 296px);
+    z-index: 10;
+}
+
+.responsive-design-mobile-two {
+    transform: translate(69px, 198px);
+}
