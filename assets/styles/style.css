@@ -82,10 +82,10 @@
 }
 
 .responsive-design-tablet {
-    transform: translate(584px, 238px);
+    transform: translate(550px, 328px);
     position: absolute;
     object-fit: cover;
-    width: 500px;
+    width: 570px;
     height: 380px;
     border-radius: 15px;
     box-shadow: 0 14px 40px -7px rgb(88 81 81 / 13%);
@@ -93,6 +93,7 @@
 }
 
 .responsive-design-mobile {
+    object-position: top left;
     position: absolute;
     object-fit: cover;
     width: 200px;
@@ -103,10 +104,10 @@
 }
 
 .responsive-design-mobile-one {
-    transform: translate(227px, 296px);
+    transform: translate(234px, 254px);
     z-index: 10;
 }
 
 .responsive-design-mobile-two {
-    transform: translate(69px, 198px);
+    transform: translate(69px, 150px);
 }
