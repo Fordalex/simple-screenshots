@@ -1,3 +1,7 @@
+body {
+    background-color: blue;
+}
+
 .screenshot-container-landscape {
     width: 1200px;
     height: 800px;
@@ -27,6 +31,7 @@
     width: 500px;
     height: 300px;
     object-fit: cover;
+    object-position: top;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 8px 24px -16px rgba(0,0,0,.2),0 1px 2px 0 rgba(0,0,0,.031);
@@ -74,11 +79,12 @@
     transform: translate(209px, 36px);
     position: absolute;
     object-fit: cover;
+    object-position: top;
     width: 750px;
     height: 450px;
     border-radius: 15px;
     box-shadow: 0 14px 40px -7px rgb(88 81 81 / 13%);
-    border: solid 1px #eaeaea;
+    border: solid 1px #ababab;
 }
 
 .responsive-design-tablet {
@@ -89,7 +95,7 @@
     height: 380px;
     border-radius: 15px;
     box-shadow: 0 14px 40px -7px rgb(88 81 81 / 13%);
-    border: solid 1px #eaeaea;
+    border: solid 1px #ababab;
 }
 
 .responsive-design-mobile {
@@ -100,7 +106,7 @@
     height: 400px;
     border-radius: 15px;
     box-shadow: 0 14px 40px -7px rgb(88 81 81 / 13%);
-    border: solid 1px #eaeaea;
+    border: solid 1px #ababab;
 }
 
 .responsive-design-mobile-one {
@@ -110,4 +116,34 @@
 
 .responsive-design-mobile-two {
     transform: translate(69px, 150px);
+}
+
+/* duel mobile */
+
+.screenshot-container-square {
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
+    margin: 5rem;
+    /* border: solid 1px black; */
+}
+
+.duel-mobile {
+    object-position: top left;
+    position: absolute;
+    object-fit: cover;
+    width: 275px;
+    height: 550px;
+    border-radius: 15px;
+    box-shadow: 0 14px 40px -7px rgb(88 81 81 / 13%);
+    border: solid 1px #ababab;
+}
+
+.duel-mobile-one {
+    transform: translate(441px, 179px);
+    z-index: 10;
+}
+
+.duel-mobile-two {
+    transform: translate(82px, 73px);
 }
